@@ -15,13 +15,11 @@ struct HomePage: View {
                     Label("首頁", systemImage: "house.fill")
                 }
                 .tag(0)
-
             AccountingMonthCalendarPage()
                 .tabItem {
                     Label("個人資料", systemImage: "person.fill")
                 }
                 .tag(1)
-
         }
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
     }
